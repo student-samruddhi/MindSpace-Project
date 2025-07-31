@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(/images/index_image.jpg);
+  background-image: url(index_image.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
