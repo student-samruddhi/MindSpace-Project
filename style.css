@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url(/images/index_image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-page {
+  background-color: rgba(132, 250, 246, 0.6);
+  border: 10px solid rgba(132, 250, 246, 0.4);
+  border-radius: 30px;
+  margin: 150px;
+  padding: 30px;
+  transition: transform 1s ease;
+}
+
+.index-page:hover {
+  transform: translateY(-40px);
+}
+
+.index-page h1 {
+  font-size: 7vmin;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #013d36;
+  font-style: italic;
+}
+
+.index-page p {
+  font-size: 5vmin;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  color: #043f38;
+}
+
+.index-page a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  font-size: 4vmin;
+  background-color: #00796b;
+  color: #e2f7f7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  margin: auto;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
